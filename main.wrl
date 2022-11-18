@@ -1,0 +1,30 @@
+#VRML V2.0 utf8
+
+# Importa o modelo base do campo
+Inline {
+	url "model/model_field.wrl"
+}
+
+# Importa as traves
+Transform {
+	translation	0 .122 0
+	children [
+		Transform {
+			rotation 0 1 0 1.57
+			translation	-5.25 0 0
+			children [
+				DEF model_goal_inline Inline {
+					url	"model/model_goal.wrl"
+				}
+			]
+		},
+		Transform {
+			rotation 0 1 0 -1.57
+			translation	5.25 0 0
+			children [
+				USE	model_goal_inline
+			]
+		}
+	]
+}
+
