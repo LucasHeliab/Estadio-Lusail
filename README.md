@@ -1,3 +1,5 @@
+![Visão do Estádio de Lusail](https://www.qatar2022.qa/sites/default/files/2022-07/lusail-transparent.png)
+
 # Estadio Icônico de Lusail
 Construção estadio em VRML
 
