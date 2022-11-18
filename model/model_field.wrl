@@ -1,15 +1,26 @@
 #VRML V2.0 utf8
 
+# Forma base do campo
 Shape {
-	geometry Box {
-		size 10.5 .05 6.8
+	geometry DEF field_base Box {
+		size 10.5 .001 6.8
 	}
 	appearance Appearance {
 		texture ImageTexture {
 			url	"../texture/texture_grass.jpg"
 		}
 		textureTransform TextureTransform {
-			scale 5	3
+			scale 10 8
+		}
+	}
+}
+
+# Caixa extra para carregar as linhas do campo
+Shape {
+	geometry USE field_base
+	appearance Appearance {
+		texture	ImageTexture {
+			url	"../texture/field_lines.png"
 		}
 	}
 }
