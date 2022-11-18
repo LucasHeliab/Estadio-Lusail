@@ -1,5 +1,8 @@
 #VRML V2.0 utf8
 
+# (c) 2022
+# Este código está licenciado sob a licença MIT (consulte LICENSE.txt para obter detalhes)
+
 # Forma base do campo
 Shape {
 	geometry DEF field_base Box {

@@ -1,5 +1,8 @@
 #VRML V2.0 utf8
 
+# (c) 2022
+# Este código está licenciado sob a licença MIT (consulte LICENSE.txt para obter detalhes)
+
 # Modelo da trave usada no campo. A distância entre os postes verticais é de
 # 7.32 metros, e a altura do poste horizontal é de 2.44 metros, em escala de
 # 1:10.
